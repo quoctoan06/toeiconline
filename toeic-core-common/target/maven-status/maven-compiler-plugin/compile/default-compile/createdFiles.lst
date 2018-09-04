@@ -1,0 +1,4 @@
+vn\myclass\core\common\utils\HibernateUtil.class
+vn\myclass\core\common\constant\CoreConstant.class
+vn\myclass\core\common\utils\UploadUtil.class
+vn\myclass\core\common\utils\ExcelPoiUtil.class

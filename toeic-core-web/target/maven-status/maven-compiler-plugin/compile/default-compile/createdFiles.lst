@@ -1,0 +1,6 @@
+vn\myclass\core\web\common\WebConstant.class
+vn\myclass\core\web\utils\RequestUtil.class
+vn\myclass\core\web\utils\SingletonServiceUtil.class
+vn\myclass\core\web\utils\WebCommonUtil.class
+vn\myclass\core\web\command\AbstractCommand.class
+vn\myclass\core\web\utils\FormUtil.class

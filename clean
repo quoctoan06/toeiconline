@@ -1,0 +1,538 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for vn.myclass:toeic-core-dao:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: vn.myclass:toeic-core-data:jar -> duplicate declaration of version 1.0-SNAPSHOT @ vn.myclass:toeic-core-dao:[unknown-version], E:\toeic\ToeicOnline\toeic-core-dao\pom.xml, line 20, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for vn.myclass:toeic-core-service:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: vn.myclass:toeic-core-persistence-data:jar -> duplicate declaration of version 1.0-SNAPSHOT @ vn.myclass:toeic-core-service:[unknown-version], E:\toeic\ToeicOnline\toeic-core-service\pom.xml, line 20, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] ToeicOnline
+[INFO] toeic-core-common
+[INFO] toeic-core-data
+[INFO] toeic-core-persistence-data
+[INFO] toeic-core-dao
+[INFO] toeic-core-dao-impl
+[INFO] toeic-core-dto
+[INFO] toeic-core-service
+[INFO] toeic-core-utils
+[INFO] toeic-core-service-impl
+[INFO] toeic-core-web
+[INFO] toeic-web-logic
+[INFO] toeic-web
+[INFO] toeic-core-test
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ToeicOnline 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ ToeicOnline ---
+[INFO] Installing E:\toeic\ToeicOnline\pom.xml to C:\Users\Toan\.m2\repository\vn\myclass\ToeicOnline\1.0-SNAPSHOT\ToeicOnline-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building toeic-core-common 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ toeic-core-common ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ toeic-core-common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ toeic-core-common ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory E:\toeic\ToeicOnline\toeic-core-common\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ toeic-core-common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ toeic-core-common ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ toeic-core-common ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ toeic-core-common ---
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-common\target\toeic-core-common-1.0-SNAPSHOT.jar to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-common\1.0-SNAPSHOT\toeic-core-common-1.0-SNAPSHOT.jar
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-common\pom.xml to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-common\1.0-SNAPSHOT\toeic-core-common-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building toeic-core-data 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ toeic-core-data ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ toeic-core-data ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ toeic-core-data ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory E:\toeic\ToeicOnline\toeic-core-data\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ toeic-core-data ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ toeic-core-data ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ toeic-core-data ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ toeic-core-data ---
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-data\target\toeic-core-data-1.0-SNAPSHOT.jar to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-data\1.0-SNAPSHOT\toeic-core-data-1.0-SNAPSHOT.jar
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-data\pom.xml to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-data\1.0-SNAPSHOT\toeic-core-data-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building toeic-core-persistence-data 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ toeic-core-persistence-data ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ toeic-core-persistence-data ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ toeic-core-persistence-data ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory E:\toeic\ToeicOnline\toeic-core-persistence-data\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ toeic-core-persistence-data ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ toeic-core-persistence-data ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ toeic-core-persistence-data ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ toeic-core-persistence-data ---
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-persistence-data\target\toeic-core-persistence-data-1.0-SNAPSHOT.jar to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-persistence-data\1.0-SNAPSHOT\toeic-core-persistence-data-1.0-SNAPSHOT.jar
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-persistence-data\pom.xml to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-persistence-data\1.0-SNAPSHOT\toeic-core-persistence-data-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building toeic-core-dao 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ toeic-core-dao ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ toeic-core-dao ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ toeic-core-dao ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory E:\toeic\ToeicOnline\toeic-core-dao\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ toeic-core-dao ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ toeic-core-dao ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ toeic-core-dao ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ toeic-core-dao ---
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-dao\target\toeic-core-dao-1.0-SNAPSHOT.jar to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-dao\1.0-SNAPSHOT\toeic-core-dao-1.0-SNAPSHOT.jar
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-dao\pom.xml to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-dao\1.0-SNAPSHOT\toeic-core-dao-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building toeic-core-dao-impl 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ toeic-core-dao-impl ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ toeic-core-dao-impl ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ toeic-core-dao-impl ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory E:\toeic\ToeicOnline\toeic-core-dao-impl\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ toeic-core-dao-impl ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ toeic-core-dao-impl ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ toeic-core-dao-impl ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ toeic-core-dao-impl ---
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-dao-impl\target\toeic-core-dao-impl-1.0-SNAPSHOT.jar to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-dao-impl\1.0-SNAPSHOT\toeic-core-dao-impl-1.0-SNAPSHOT.jar
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-dao-impl\pom.xml to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-dao-impl\1.0-SNAPSHOT\toeic-core-dao-impl-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building toeic-core-dto 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ toeic-core-dto ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ toeic-core-dto ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ toeic-core-dto ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory E:\toeic\ToeicOnline\toeic-core-dto\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ toeic-core-dto ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ toeic-core-dto ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ toeic-core-dto ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ toeic-core-dto ---
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-dto\target\toeic-core-dto-1.0-SNAPSHOT.jar to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-dto\1.0-SNAPSHOT\toeic-core-dto-1.0-SNAPSHOT.jar
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-dto\pom.xml to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-dto\1.0-SNAPSHOT\toeic-core-dto-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building toeic-core-service 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ toeic-core-service ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ toeic-core-service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ toeic-core-service ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory E:\toeic\ToeicOnline\toeic-core-service\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ toeic-core-service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ toeic-core-service ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ toeic-core-service ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ toeic-core-service ---
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-service\target\toeic-core-service-1.0-SNAPSHOT.jar to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-service\1.0-SNAPSHOT\toeic-core-service-1.0-SNAPSHOT.jar
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-service\pom.xml to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-service\1.0-SNAPSHOT\toeic-core-service-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building toeic-core-utils 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ toeic-core-utils ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ toeic-core-utils ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ toeic-core-utils ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory E:\toeic\ToeicOnline\toeic-core-utils\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ toeic-core-utils ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ toeic-core-utils ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ toeic-core-utils ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ toeic-core-utils ---
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-utils\target\toeic-core-utils-1.0-SNAPSHOT.jar to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-utils\1.0-SNAPSHOT\toeic-core-utils-1.0-SNAPSHOT.jar
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-utils\pom.xml to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-utils\1.0-SNAPSHOT\toeic-core-utils-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building toeic-core-service-impl 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ toeic-core-service-impl ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ toeic-core-service-impl ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ toeic-core-service-impl ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory E:\toeic\ToeicOnline\toeic-core-service-impl\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ toeic-core-service-impl ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ toeic-core-service-impl ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ toeic-core-service-impl ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ toeic-core-service-impl ---
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-service-impl\target\toeic-core-service-impl-1.0-SNAPSHOT.jar to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-service-impl\1.0-SNAPSHOT\toeic-core-service-impl-1.0-SNAPSHOT.jar
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-service-impl\pom.xml to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-service-impl\1.0-SNAPSHOT\toeic-core-service-impl-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building toeic-core-web 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ toeic-core-web ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ toeic-core-web ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ toeic-core-web ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory E:\toeic\ToeicOnline\toeic-core-web\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ toeic-core-web ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ toeic-core-web ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ toeic-core-web ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ toeic-core-web ---
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-web\target\toeic-core-web-1.0-SNAPSHOT.jar to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-web\1.0-SNAPSHOT\toeic-core-web-1.0-SNAPSHOT.jar
+[INFO] Installing E:\toeic\ToeicOnline\toeic-core-web\pom.xml to C:\Users\Toan\.m2\repository\vn\myclass\toeic-core-web\1.0-SNAPSHOT\toeic-core-web-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building toeic-web-logic 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ toeic-web-logic ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ toeic-web-logic ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ toeic-web-logic ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory E:\toeic\ToeicOnline\toeic-web-logic\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ toeic-web-logic ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ toeic-web-logic ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ toeic-web-logic ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ toeic-web-logic ---
+[INFO] Installing E:\toeic\ToeicOnline\toeic-web-logic\target\toeic-web-logic-1.0-SNAPSHOT.jar to C:\Users\Toan\.m2\repository\vn\myclass\toeic-web-logic\1.0-SNAPSHOT\toeic-web-logic-1.0-SNAPSHOT.jar
+[INFO] Installing E:\toeic\ToeicOnline\toeic-web-logic\pom.xml to C:\Users\Toan\.m2\repository\vn\myclass\toeic-web-logic\1.0-SNAPSHOT\toeic-web-logic-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building toeic-web 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ toeic-web ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ toeic-web ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ toeic-web ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory E:\toeic\ToeicOnline\toeic-web\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ toeic-web ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ toeic-web ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ toeic-web ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [toeic-web] in [E:\toeic\ToeicOnline\toeic-web\target\toeic-web-1.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [E:\toeic\ToeicOnline\toeic-web\src\main\webapp]
+[INFO] Webapp assembled in [63119 msecs]
+[INFO] Building war: E:\toeic\ToeicOnline\toeic-web\target\toeic-web-1.0-SNAPSHOT.war
+[INFO] WEB-INF\web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ toeic-web ---
+[INFO] Installing E:\toeic\ToeicOnline\toeic-web\target\toeic-web-1.0-SNAPSHOT.war to C:\Users\Toan\.m2\repository\vn\myclass\toeic-web\1.0-SNAPSHOT\toeic-web-1.0-SNAPSHOT.war
+[INFO] Installing E:\toeic\ToeicOnline\toeic-web\pom.xml to C:\Users\Toan\.m2\repository\vn\myclass\toeic-web\1.0-SNAPSHOT\toeic-web-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building toeic-core-test 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ toeic-core-test ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ toeic-core-test ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ toeic-core-test ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory E:\toeic\ToeicOnline\toeic-api-test\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ toeic-core-test ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 4 source files to E:\toeic\ToeicOnline\toeic-api-test\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ toeic-core-test ---
+[INFO] Surefire report directory: E:\toeic\ToeicOnline\toeic-api-test\target\surefire-reports
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng/2.12.4/surefire-testng-2.12.4.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng/2.12.4/surefire-testng-2.12.4.pom (3.6 kB at 1.6 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.12.4/surefire-providers-2.12.4.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.12.4/surefire-providers-2.12.4.pom (2.3 kB at 4.8 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.pom (723 B at 1.8 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0/maven-2.0.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0/maven-2.0.pom (8.8 kB at 20 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng-utils/2.12.4/surefire-testng-utils-2.12.4.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng-utils/2.12.4/surefire-testng-utils-2.12.4.pom (3.0 kB at 7.2 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.12.4/surefire-grouper-2.12.4.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.12.4/surefire-grouper-2.12.4.pom (2.5 kB at 6.1 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/testng/testng/5.7/testng-5.7.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/testng/testng/5.7/testng-5.7.pom (12 kB at 24 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.pom (680 B at 1.6 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-beta-2/wagon-1.0-beta-2.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-beta-2/wagon-1.0-beta-2.pom (5.9 kB at 14 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/4/maven-parent-4.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/4/maven-parent-4.pom (10.0 kB at 24 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.8/maven-artifact-2.0.8.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.8/maven-artifact-2.0.8.pom (1.6 kB at 3.8 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.8/maven-2.0.8.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.8/maven-2.0.8.pom (12 kB at 28 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/6/maven-parent-6.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/6/maven-parent-6.pom (20 kB at 45 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.8/maven-model-2.0.8.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.8/maven-model-2.0.8.pom (3.1 kB at 7.7 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.8/maven-project-2.0.8.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.8/maven-project-2.0.8.pom (2.7 kB at 6.6 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.8/maven-plugin-api-2.0.8.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.8/maven-plugin-api-2.0.8.pom (1.5 kB at 3.2 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.pom (2.3 kB at 5.5 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng-utils/2.12.4/surefire-testng-utils-2.12.4.jar
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.jar
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.12.4/surefire-grouper-2.12.4.jar
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.jar
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng/2.12.4/surefire-testng-2.12.4.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.jar (79 kB at 124 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng/2.12.4/surefire-testng-2.12.4.jar (34 kB at 30 kB/s)
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng-utils/2.12.4/surefire-testng-utils-2.12.4.jar (24 kB at 20 kB/s)
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.12.4/surefire-grouper-2.12.4.jar (38 kB at 32 kB/s)
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.jar (164 kB at 120 kB/s)
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar (46 kB at 51 kB/s)
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@80a178
+Hibernate: select listenguid0_.listenGuidelineId as listenGu1_1_, listenguid0_.content as content2_1_, listenguid0_.createddate as createdd3_1_, listenguid0_.image as image4_1_, listenguid0_.modifieddate as modified5_1_, listenguid0_.title as title6_1_ from listenguideline listenguid0_ where listenguid0_.title=? and listenguid0_.content=?
+Hibernate: select count(*) as col_0_0_ from listenguideline listenguid0_ where listenguid0_.title=? and listenguid0_.content=?
+Hibernate: select roleentity0_.roleid as roleid1_2_0_, roleentity0_.name as name2_2_0_ from role roleentity0_ where roleentity0_.roleid=?
+Hibernate: select roleentity0_.roleid as roleid1_2_0_, roleentity0_.name as name2_2_0_ from role roleentity0_ where roleentity0_.roleid=?
+Hibernate: delete from role where roleid=?
+2018-07-16 16:03:49 ERROR SqlExceptionHelper:146 - Cannot delete or update a parent row: a foreign key constraint fails (`toeiconline`.`user`, CONSTRAINT `fk_user_role` FOREIGN KEY (`roleid`) REFERENCES `role` (`roleid`))
+Hibernate: select roleentity0_.roleid as roleid1_2_, roleentity0_.name as name2_2_ from role roleentity0_
+Hibernate: select roleentity0_.roleid as roleid1_2_0_, roleentity0_.name as name2_2_0_ from role roleentity0_ where roleentity0_.roleid=?
+Hibernate: insert into role (name, roleid) values (?, ?)
+Hibernate: select roleentity0_.roleid as roleid1_2_0_, roleentity0_.name as name2_2_0_ from role roleentity0_ where roleentity0_.roleid=?
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.435 sec <<< FAILURE!
+checkDelete(vn.myclass.api.test.RoleTest)  Time elapsed: 0.666 sec  <<< FAILURE!
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:72)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:211)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:62)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3400)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3630)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:114)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:463)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:349)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1222)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at vn.myclass.core.data.daoimpl.AbstractDao.delete(AbstractDao.java:190)
+	at vn.myclass.api.test.RoleTest.checkDelete(RoleTest.java:58)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`toeiconline`.`user`, CONSTRAINT `fk_user_role` FOREIGN KEY (`roleid`) REFERENCES `role` (`roleid`))
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408)
+	at com.mysql.jdbc.Util.getInstance(Util.java:383)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1049)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4226)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4158)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2615)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2776)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2840)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2082)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2334)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2262)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2246)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:208)
+	... 48 more
+
+
+Results :
+
+Failed tests:   checkDelete(vn.myclass.api.test.RoleTest): could not execute statement
+
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] ToeicOnline ........................................ SUCCESS [  4.574 s]
+[INFO] toeic-core-common .................................. SUCCESS [ 25.488 s]
+[INFO] toeic-core-data .................................... SUCCESS [  0.410 s]
+[INFO] toeic-core-persistence-data ........................ SUCCESS [  0.444 s]
+[INFO] toeic-core-dao ..................................... SUCCESS [  0.329 s]
+[INFO] toeic-core-dao-impl ................................ SUCCESS [  0.271 s]
+[INFO] toeic-core-dto ..................................... SUCCESS [  0.261 s]
+[INFO] toeic-core-service ................................. SUCCESS [  0.265 s]
+[INFO] toeic-core-utils ................................... SUCCESS [  0.300 s]
+[INFO] toeic-core-service-impl ............................ SUCCESS [  0.398 s]
+[INFO] toeic-core-web ..................................... SUCCESS [  0.333 s]
+[INFO] toeic-web-logic .................................... SUCCESS [  0.473 s]
+[INFO] toeic-web .......................................... SUCCESS [01:09 min]
+[INFO] toeic-core-test .................................... FAILURE [ 33.494 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:17 min
+[INFO] Finished at: 2018-07-16T16:03:51+07:00
+[INFO] Final Memory: 19M/47M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project toeic-core-test: There are test failures.
+[ERROR] 
+[ERROR] Please refer to E:\toeic\ToeicOnline\toeic-api-test\target\surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :toeic-core-test

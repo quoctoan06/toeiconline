@@ -1,0 +1,5 @@
+vn\myclass\core\dto\UserDTO.class
+vn\myclass\core\dto\RoleDTO.class
+vn\myclass\core\dto\ListenGuidelineDTO.class
+vn\myclass\core\dto\UserImportDTO.class
+vn\myclass\core\dto\CheckLoginDTO.class

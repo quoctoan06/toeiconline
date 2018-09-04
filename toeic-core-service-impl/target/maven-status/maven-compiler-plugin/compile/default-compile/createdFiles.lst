@@ -1,0 +1,4 @@
+vn\myclass\core\service\impl\ListenGuidelineServiceImpl.class
+vn\myclass\core\service\impl\UserServiceImpl.class
+vn\myclass\core\service\impl\RoleServiceImpl.class
+vn\myclass\core\service\utils\SingletonDaoUtil.class
